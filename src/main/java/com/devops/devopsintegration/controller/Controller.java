@@ -8,6 +8,7 @@ public class Controller {
 
     @GetMapping("/")
     public String sayHello(){
+        System.out.println("prems");
         return "Hello world!!";
     }
 }
